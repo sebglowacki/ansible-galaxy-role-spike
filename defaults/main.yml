@@ -1,2 +1,3 @@
 ---
 # defaults file for ansible-galaxy-role-spike
+foo: bar
