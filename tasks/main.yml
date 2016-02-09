@@ -1,3 +1,7 @@
 ---
 # tasks file for ansible-galaxy-role-spike
-- debug: msg="Printing variable foo: {{ foo }}"
+- name: Print something
+  debug: msg="Executing tasks"
+
+- name: Print test_variable
+  debug: msg="{{ test_variable }}"
